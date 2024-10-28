@@ -36,9 +36,7 @@ export default function App() {
         )}
       >
         <View style={styles.taskItem}>
-          {/* <View style={styles.taskContent}> */}
-            <Text style={styles.taskText}>{item.text}</Text>
-          {/* </View> */}
+          <Text style={styles.taskText}>{item.text}</Text>
         </View>
       </Swipeable>
     );
