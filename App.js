@@ -130,10 +130,6 @@ const styles = StyleSheet.create({
     height: 40,
     marginBottom: 10,
   },
-  taskContent: {
-    flexDirection: 'row',
-    alignItems: 'center'
-  },
   taskText: {
     flex: 1,
     fontSize: 20,
